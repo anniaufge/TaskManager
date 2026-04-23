@@ -1,4 +1,4 @@
-# MyProject
+# TaskManager
 SE350 Project
 
 Checklist:
