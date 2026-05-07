@@ -2,10 +2,12 @@ package model;
 
 import java.util.ArrayList;
 import java.util.List;
+import strategy.ISortStrategy;
 
 public class Project {
 	private String name;
 	private List<Task> tasks;
+	private ISortStrategy sortStrategy;
 	
 	public Project(String name) {
 		this.name = name;
@@ -21,7 +23,14 @@ public class Project {
 	}
 	
 	public List<Task> getTasks() {
+		if (sortStrategy != null) {
+			return sortStrategy.sort(tasks);
+		}
 		return new ArrayList<>(tasks);
+	}
+	
+	public void setSortStrategy(ISortStrategy sortStrategy) {
+		this.sortStrategy = sortStrategy;
 	}
 	
 	public String getName() { return name; }
