@@ -14,7 +14,7 @@ SE350 Project
 A task management system where users can create, organize, and track tasks of different types, priorities, statuses, and deadlines.
 
 ## Goals for the Final Submission
-I plan to show creating tasks through a GUI, moving them through the workflow states, sorting by different criteria, and using undo/redo to reverse actions.
+I plan to demo a working GUI that lets users manage tasks through different workflow states, with sorting and undo/redo support.
 
 ## Sprint 3 Notes
 Implemented two new design patterns (State and Strategy) and refactored classes to accomodate. I didn't face many issues implementing the patterns but a concern I have is making sure the state transitions stay clean as more features get added. I also want to figure out how the patterns connect to the Swing GUI in the upcoming sprints.
