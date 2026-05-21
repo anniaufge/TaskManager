@@ -4,10 +4,7 @@ SE350 Project
 ## Checklist
 * Working Individually
 * Using Java (JavaSE-21)
-* GitHub account is set up
-* GitHub public repository is set up
 * GitHub repository link: https://github.com/anniaufge/TaskManager
-* Hello World program compiles and runs
 * Entry point: src/main/Main.java
 
 ## Project Description
