@@ -18,3 +18,6 @@ Implemented two new design patterns (State and Strategy) and refactored classes 
 
 ## Sprint 4 Notes
 Implemented two more design patterns (Command and Observer). The Command pattern enables new undo/redo functionality for task creation, deletion, and state changes. The Observer pattern notifies listeners when the project is being updated. No major issues to report.
+
+## Sprint 5 Notes
+Implemented two more design patterns (Factory and Builder). The Factory pattern creates different task types with default values. The Builder allows for flexible task construction through a director.
