@@ -21,3 +21,14 @@ Implemented two more design patterns (Command and Observer). The Command pattern
 
 ## Sprint 5 Notes
 Implemented two more design patterns (Factory and Builder). The Factory pattern creates different task types with default values. The Builder allows for flexible task construction through a director.
+
+## Final Submission Notes
+Implemented working GUI and ensured all design patterns work together.
+
+## Bug Fixes
+- Back button bypassed the command pattern, corrected status sort order to follow the natural workflow (TODO -> IN_PROGRESS -> IN_REVIEW -> DONE).
+
+## Known Issues
+- State boundary messages print to console instead of GUI
+- No input validation on Add Task form
+- Factory creators are available but the Add Task dialog uses builder pattern for task creation
