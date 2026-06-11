@@ -3,3 +3,6 @@
 .project
 .settings/
 .DS_Store
+*.class
+out/
+.DS_Store
